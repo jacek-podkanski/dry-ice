@@ -51,6 +51,7 @@ GEM
     parallel (1.17.0)
     parser (2.6.3.0)
       ast (~> 2.4.0)
+    rack (2.0.7)
     rainbow (3.0.0)
     rubocop (0.73.0)
       jaro_winkler (~> 1.5.1)
@@ -59,6 +60,9 @@ GEM
       rainbow (>= 2.2.2, < 4.0)
       ruby-progressbar (~> 1.7)
       unicode-display_width (>= 1.4.0, < 1.7)
+    rubocop-rails (2.2.1)
+      rack (>= 1.1)
+      rubocop (>= 0.72.0)
     ruby-progressbar (1.10.1)
     rufo (0.7.0)
     unicode-display_width (1.6.0)
@@ -74,6 +78,7 @@ DEPENDENCIES
   dry-struct (~> 0.5.1)
   dry-validation (~> 0.12.1)
   rubocop
+  rubocop-rails
   rufo
 
 RUBY VERSION
