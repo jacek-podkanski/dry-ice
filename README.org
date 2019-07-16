@@ -1,7 +1,5 @@
 * Dry Ice
 
 A repo for trying
-
 [[https://dry-rb.org/gems/][dry-rb]]
-
 and experimenting with simple Gtk3.
