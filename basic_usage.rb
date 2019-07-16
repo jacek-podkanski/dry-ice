@@ -7,7 +7,15 @@ Bundler.require(:default)
 
 puts RUBY_VERSION.to_s
 
-byebug
-1 == 1
+# byebug
+# 1 == 1
 
-puts "done"
+puts "done ==================="
+
+module Hello
+  extend FFI::Library
+  ffi_lib FFI::Library::LIBC
+  attach_function :puts, [:string], :int
+end
+
+Hello.puts("Hello, World")
