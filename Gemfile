@@ -9,6 +9,9 @@ gem "dry-validation", "~> 0.12.1"
 
 gem "ffi"
 
+gem "gir_ffi", git: "https://github.com/jacek-podkanski/gir_ffi.git"
+gem "gir_ffi-gtk", git: "https://github.com/jacek-podkanski/gir_ffi-gtk.git"
+
 gem "byebug"
 gem "rubocop", require: false
 gem "rubocop-rails"
