@@ -39,7 +39,7 @@ GObject.signal_connect(draw_area, "draw") do |widget, ctx|
   false
 end
 
-draw_area.set_size_request(100, 100)
+draw_area.set_size_request(400, 100)
 
 win = Gtk::Window.new :toplevel
 win.add(draw_area)
